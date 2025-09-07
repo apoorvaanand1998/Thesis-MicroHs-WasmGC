@@ -1,0 +1,13 @@
+import os
+import csv
+
+directory = "./"
+result = "results.csv"
+
+wasmgc_files = [f for f in os.listdir(directory) if f.endswith("-wasmgc.wasm")]
+
+rows = []
+for wf in wasmgc_files:
+  wf_size  = os.path.getsize(directory+wf)
+  wat_name = wf.removesuffix("sm") + "t"
+  print(wat_name)

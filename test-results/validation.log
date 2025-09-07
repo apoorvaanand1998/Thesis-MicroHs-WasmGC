@@ -1,0 +1,102 @@
+Arith-wasmgc.wat - 
+Array-wasmgc.wat - 
+Bang-wasmgc.wat - 
+BindPat-wasmgc.wat - 
+BitCount-wasmgc.wat - 
+Block-wasmgc.wat - 
+Bounded-wasmgc.wat - 
+ByteStringIO-wasmgc.wat - 
+Bytestring-wasmgc.wat - 
+Case-wasmgc.wat - 
+Catch-wasmgc.wat - 
+Class-wasmgc.wat - 
+Coerce-wasmgc.wat - 
+Concur-wasmgc.wat - 
+CString-wasmgc.wat - 
+Default-wasmgc.wat - 
+Delay-wasmgc.wat - 
+Deriving-wasmgc.wat - 
+DfltSig-wasmgc.wat - 
+Dict-wasmgc.wat - 
+Do-wasmgc.wat - 
+EmptyCase-wasmgc.wat - 
+Enum-wasmgc.wat - 
+Eq1-wasmgc.wat - 
+Eq-wasmgc.wat - 
+Exists-wasmgc.wat - 
+Fac-wasmgc.wat - 
+FArith-wasmgc.wat - error: invalid i32 number: constant out of range
+     --> FArith-wasmgc.wat:3409:12
+      |
+ 3409 | (i32.const -9223372036854775808)(ref.i31)
+      |            ^
+Floating-wasmgc.wat - 
+Forall-wasmgc.wat - 
+ForeignC-wasmgc.wat - 
+ForeignPtr-wasmgc.wat - 
+Fork-wasmgc.wat - 
+FunDep-wasmgc.wat - 
+Guard-wasmgc.wat - 
+Hello-wasmgc.wat - 
+HigherKind-wasmgc.wat - 
+ImpMet-wasmgc.wat - 
+Infer-wasmgc.wat - 
+Infix-wasmgc.wat - 
+Info-wasmgc.wat - error: invalid i32 number: constant out of range
+     --> Info-wasmgc.wat:1616:12
+      |
+ 1616 | (i32.const 72057594037927938)(ref.i31)
+      |            ^
+Integer-wasmgc.wat - 
+IOArray-wasmgc.wat - 
+Irref-wasmgc.wat - 
+LameCase-wasmgc.wat - 
+ListCompr-wasmgc.wat - 
+ListTest-wasmgc.wat - 
+LitMatch-wasmgc.wat - 
+LocalFix-wasmgc.wat - 
+LocalPoly-wasmgc.wat - 
+Mask-wasmgc.wat - 
+Misc-wasmgc.wat - 
+MString-wasmgc.wat - 
+MultiIf-wasmgc.wat - 
+Multi-wasmgc.wat - 
+MutRec-wasmgc.wat - 
+MVar-wasmgc.wat - 
+Newtype-wasmgc.wat - 
+Nfib-wasmgc.wat - 
+NoForall-wasmgc.wat - 
+NumUnder-wasmgc.wat - 
+OrPat-wasmgc.wat - 
+ParseInd-wasmgc.wat - 
+PartRed-wasmgc.wat - 
+PatBind-wasmgc.wat - 
+PolyKind-wasmgc.wat - 
+Rank2-wasmgc.wat - 
+Read-wasmgc.wat - error: invalid i32 number: constant out of range
+     --> Read-wasmgc.wat:4992:12
+      |
+ 4992 | (i32.const -9223372036854775808)(ref.i31)
+      |            ^
+Record-wasmgc.wat - 
+RtsExn-wasmgc.wat - 
+Serdes-wasmgc.wat - 
+Sieve-wasmgc.wat - 
+Stable-wasmgc.wat - 
+StandDer-wasmgc.wat - 
+Storable-wasmgc.wat - 
+StringTest-wasmgc.wat - 
+ST-wasmgc.wat - 
+Symbol-wasmgc.wat - 
+Text-wasmgc.wat - 
+Throw-wasmgc.wat - 
+ThrSt-wasmgc.wat - 
+Typeable-wasmgc.wat - 
+TypeApp-wasmgc.wat - 
+TypeEq-wasmgc.wat - 
+TypeLits-wasmgc.wat - 
+TypeOp-wasmgc.wat - 
+Unicode-wasmgc.wat - 
+Via-wasmgc.wat - 
+View-wasmgc.wat - 
+Word-wasmgc.wat - 
